@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Pawan Kumavat</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a>
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">About</a>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">          
+          <h2 style="color: #3f396d">
+           Su Darli Aung</span>
+          </h2>
+          <p class="text-muted">
+            Experienced Java and .NET Core Developer | 7 Years in IT Engineering 
+            </p>
+          <p class="text-muted">
+            I am a skilled Java Developer and .NET Core Developer with 7 years of proven experience in the IT sector. 
+            I specialize in designing, coding, and maintaining robust software solutions that adhere to industry best practices. 
+            I’m committed to delivering high-quality code and creative solutions to complex technical challenges. 
+            With a passion for problem-solving, I am eager to contribute my expertise to a dynamic software development team and drive impactful results.
+          </p>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.webp" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->    
+  </div>
+  <!-- experience section starts -->
+  <div id="experience" class="expertise mt-5">
+    <h3 class="heading">Experience</h3>
+    <div id="experience-timeline">
+      <div data-date="September 2023 – August 2024">
+        <h2>Partner Associates International Co. Ltd	Myanmar</h2>
+        <h4>Senior Developer</h4>        
+          <h3>Key Achievements in Backend Development:</h3>
+          <p>Developed RESTful API for seamless client-server communication.</p>
+          <p>Integrated RabbitMQ to implement efficient messaging within the API, ensuring reliable data transmission.</p>
+          <p>Created worker services to optimize API workloads and enable asynchronous processing, improving system efficiency.</p>
+          <p>Enhanced performance and scalability by integrating worker services with RabbitMQ and Redis Cache.</p>
+          <p>Implemented weekly server deployment to ensure continuous updates and maintain system stability.</p>       
+      </div>
+
+    <div data-date="August 2022 – July 2023">
+      <h2>Interaktiv Technology Pte Ltd	Singapore</h2>
+      <h4>Software Engineer</h4>      
+        <h3>Key Achievements in Backend Development:</h3>
+        <p>Designed and implemented Camunda Workflow Engine to streamline business processes.</p>
+        <p>Integrated Camunda backend with Node.js REST API for seamless communication between workflows and external systems.</p>
+        <p>Optimized workflows leveraging in-depth Camunda expertise to enhance efficiency and automation.</p>
+        <p>Provided weekly progress reports to track and communicate project milestones effectively.</p>
+        <p>Continuously improved Camunda proficiency through ongoing learning and application of best practices</p>
+    </div>
+
+    <div data-date="September 2023 – August 2024">
+      <h2>Myanmar Information Technology</h2>
+      <h4>Senior Developer</h4>      
+        <h3>Key Achievements in Backend Development:</h3>
+        <p>Designed user interfaces using the GWT framework to create responsive and interactive web applications.</p>
+        <p>Developed Jersey RESTful Web Services to facilitate efficient client-server communication.</p>
+        <p>Implemented MSSQL reports utilizing the Jasper Report tool for dynamic and customizable reporting solutions.</p>
+        <p>Conducted performance testing to validate system reliability and optimize performance.</p>
+        <p>Ensured application excellence by providing ongoing support and mentorship to junior team members.</p>       
+    </div>
+  </div>
+  <!-- End #experience -->
+
+  <div id="education">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+        <h3>University of Technology (Yatanarpon Cyber City)</h3>
+        <span class="education-date">Dec 2010 - Dec 2015</span>
+        <h4>Bachelor of Engineering (Information Science and Technology)</h4>
+        <p>During my time at the University of Technology, I developed a strong foundation in Information Science and Technology. 
+          The curriculum encompassed key areas such as software development, database management, networking, and algorithm design. 
+          I engaged in hands-on projects that fostered practical problem-solving skills, and gained exposure to various programming languages and technologies. 
+          My academic journey laid the groundwork for my expertise in software engineering and fueled my passion for continuous learning and innovation in the field.</p>
+    </div>
+ </div>
+<!-- End #education -->
+  <!-- skill section starts -->
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>.Net Core</li>
+            <li>C#</li>
+            <li>MSSQL</li>
+            <li>Node.js</li>
+            <li>C++</li>
+            <li>Jasper</li>
+            <li>RabbitMQ</li>
+            <li>Redis Cache</li>
+            <li>Twilio</li>
+            <li>Camunda</li>
+            <li>GWT</li>
+            <li>C++</li>
+        </ul>
+    </div>  
+
+    <div id="contact">
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+          <form method="POST" action="https://formspree.io/f/mzzpljoq">
+              <input type="hidden" name="_subject" value="Contact request from personal website" />
+              <input type="email" name="_replyto" placeholder="Your email" required>
+              <textarea name="message" placeholder="Your message" required></textarea>
+              <button type="submit">Send</button>
+          </form>
+      </div>
+      <!-- End #contact-form -->
+  </div>
+  <div class="col-sm-5 social">
+    <ul>
+        <li>
+            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="www.linkedin.com/in/su-darli-aung-608077153" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</div>
+  <!-- End #contact -->
+   <!-- footer starts -->
+   <footer class="text-center py-4">
+    <div class="social">
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://github.com/SuDarliAung" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/su-darli-aung-608077153" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <p>&copy; 2024 Su Darli Aung. All Rights Reserved.</p>
+  </footer>
+  <!-- footer ends -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
